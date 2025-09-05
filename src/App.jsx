@@ -19,6 +19,7 @@ function App() {
   const activePlayer = deriveActivePlayer(turns)
 
   const handleSelectSquare = (rowIndex, colIndex) => {
+
     setTurns((prevTurns) => {
       const activePlayer = deriveActivePlayer(prevTurns)
 
